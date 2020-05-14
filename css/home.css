@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    margin: 0;
+  }
+  
+  .side-text {
+      flex: 30%;
+      background-color: #f1f1f1;
+      padding: 20px;
+      border-bottom: 0.1rem solid #14213d;
+  }
+  /* main flex changes the white side  */
+  .main-status {
+      flex: 30%;
+      background-color: white;
+      padding: 20px;
+      text-align: center;
+  }
+  
+  
+  .servermesssage {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 20px;
+      margin-left: 40px;
+      margin-right: 40px;
+  }
+  
+  /* new  */
+  
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+  
+  /* Fake image */
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  
+  /*  shutdown, update, maintenance, server problem */
+  .servermesssage-update {
+    display: none;
+  }
+  
+  .servermesssage-shutdown {
+    display: none;
+  }
+  
+  .servermesssage-maintenance {
+    display: none;
+  }
+  
+  .servermesssage-serverproblem {
+    display: none;
+  }
+  
+  
+  
+  
+  /* End of the server status */
