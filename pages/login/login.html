@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+         <h1>Login To Flightweek</h1>
+         </div>
+        
+         <form name="login" onsubmit="return validateForm() ;" method="post">
+        
+         <ul>
+         <li>Username: <input id="username" type="text" name="username">
+         </li>
+        
+         <li>Password: <input id="password" type="password" name="password">
+         </li>
+         </ul>
+        
+        <input type="button" class="submit" value="LOGIN" name="submit" onclick="logfin()">
+        </form>
+    </div>
+<!-- remember to change every window.open href -->
+
+<script src="login.js"></script>
+</body>
+</html>
