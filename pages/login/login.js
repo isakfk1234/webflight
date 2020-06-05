@@ -47,3 +47,49 @@ alert("wrong id/password");
 }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+const oil;
+
+// function engine(oil, items, fuel) {
+// 	const oil {
+// 		oil.type(change (typof) + 'done');
+// 	}
+// }
+
+const oil = {}
+
+function addItems(store, shop) {
+	items.add(store => shop);
+	if(items.removed) {
+		remove.items(list)
+	} else {
+		return items.list();
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
