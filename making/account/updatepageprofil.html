@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profil - Flightweek</title>
     <link rel="stylesheet" href="/nettsider/FlightWeek/css/nav/nav.css">
-    <link rel="stylesheet" href="accountnewbox.css">
-    <link rel="stylesheet" href="/nettsider/flightweek/making/footer/footer.css">
+    <link rel="stylesheet" href="newcss.css">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
 </head>
 <body>
 <!-- Nav start -->
@@ -15,17 +17,17 @@
    <img src="logo.png" alt=""> 
   <a class="logo">FlightWeek</a>
   <div class="header-right">
-    <a href="home.html">Home</a>
-    <a href="account.html">Profil</a>
+    <a class="fas fa-home" href="home.html">Home</a>
+    <a class="fas fa-user" href="account.html">Profile</a>
     <a href="#">airports</a>
-    <a href="#">fleet</a>
-    <a href="#">routes</a>
+    <a class="fas fa-warehouse" href="#">fleet</a>
+    <a class="fas fa-globe" href="#">routes</a>
   </div>
 </div>
 <!-- nav end -->
 
 <!-- possible the new profil stats  -->
-
+<!-- this is the user stats -->
 <div class="profil-stats-new">
   <div class="item">
     <h1>LN-MNS</h1>
@@ -49,36 +51,32 @@
   </div>
   <div class="item">
     <h1 class="rank-display-none">Owner</h1>
-    <h1 class="rank-display">pilot</h1>
-    <h1 class="rank-display-none">senior pilot</h1>
-    <h1 class="rank-display-none"> first officer</h1>
-    <h1 class="rank-display-none"> Trainee</h1>
+    <h1 class="rank-display">Senior Captain</h1>
+    <h1 class="rank-display-none">Captain</h1>
+    <h1 class="rank-display-none">Senior First Officer</h1>
+    <h1 class="rank-display-none">first officer</h1>
+    <h1 class="rank-display-none">second officer</h1>
+    <h1 class="rank-display-none">Trainee</h1>
     <h4>rank</h4>
   </div>
-  <div class="item">
+    <!-- possible remove or do a change  -->
+  <!-- <div class="item">
     <h1>account type A</h1>
     <h4>account type</h4>
-  </div>
+  </div> -->
 
 </div>
 
 
-
-
-
-
-
-
-
 <!-- new profil -->
 <!-- using flex -->
-
+<!-- this is the flight board -->
 <div class="flexbox-con">
   <div class="flexbox flexbox-profil">
     <div class="profil-new">
       <div class="profil-header">
         <!-- profil header -->
-        <p>User Profil</p>
+        <p>User Profile</p>
       </div> 
       <!-- pic and user info -->
       <img class="profil-picture" src="/nettsider/flightweek/making/account/profil.png" alt="">
@@ -86,7 +84,7 @@
         <p>isakfk1234</p>
       </div>
       <div class="profil-footer">
-        <p class="btn info"><a href="awefwaef">settings</a></p>
+        <p class="btn info"><a href="#settings">comingsoon</a></p>
       </div>
     </div>
   </div>
@@ -99,9 +97,9 @@
         <thead>
           <th>Airline</th>
           <th>callsign</th>
-          <th>Dep</th>
-          <th>Arr</th>
-          <th>aircraft</th>
+          <th class="fas fa-plane-departure" style="display: table-cell;">Dep</th>
+          <th class="fas fa-plane-arrival" style="display: table-cell;">Arr</th>
+          <th class="fas fa-plane" style="display: table-cell;">aircraft</th>
         </thead>
         <tbody>
           <tr>
@@ -119,7 +117,7 @@
             <td>a321</td>
           </tr>
           <tr>
-            <td><img src="logo/cv.png" alt=""></td>
+            <td><img src="logo/cargo.png" style="width: 10%; height: 30%;" alt=""></td>
             <td>CLX311</td>
             <td>luxembourg</td>
             <td>Doha</td>
@@ -148,9 +146,9 @@
         <thead>
           <th>Airline</th>
           <th>callsign</th>
-          <th>Dep</th>
-          <th>Arr</th>
-          <th>aircraft</th>
+          <th class="fas fa-plane-departure" style="display: table-cell;">Dep</th>
+          <th class="fas fa-plane-arrival" style="display: table-cell;">Arr</th>
+          <th class="fas fa-plane" style="display: table-cell;">aircraft</th>
         </thead>
         <tbody>
           <tr>
@@ -168,7 +166,7 @@
             <td>a321</td>
           </tr>
           <tr>
-            <td><img src="logo/cv.png" alt=""></td>
+            <td><img src="logo/cargo.png" style="width: 10%; height: 30%;" alt=""></td>
             <td>CLX311</td>
             <td>luxembourg</td>
             <td>Doha</td>
@@ -196,13 +194,13 @@
 
 
 
+
 <!-- work in progress -->
 
 <!-- dont remove. remove this when the mobil version is ready -->
 <div class="mobil">
   <div class="mobil-version">
-    <h1>Hi mobil version is not ready yet <br> mobil version is coming later</h1> <br>
-    <h1>this view is not ready for pc and mobil</h1>
+    <h1>Hi mobil version is not ready yet <br> mobil version is coming later</h1>
   </div>
 </div>
 
@@ -213,22 +211,6 @@
 </div>
 
 <!-- mobil version -->
-
-<!-- footer -->
-<!-- <footer>
-  <div class="footerLinks">
-      <ul>
-          <li><a href="tos">tos</a></li>
-          <li><a href="">contact</a></li>
-          <li><a href="">home</a></li>
-      </ul>
-
-  </div>
-</footer> -->
-
-<div class="footer">
-  <p>Footer</p>
-</div>
 
 
 </body>

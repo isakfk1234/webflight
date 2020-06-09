@@ -34,7 +34,7 @@ footer {
     font-size: 13px;
 } */
 
-.footer {
+/* .footer {
    position: fixed;
    left: 0;
    bottom: 0;
@@ -42,8 +42,27 @@ footer {
    background-color: red;
    color: white;
    text-align: center;
+} */
+/* 
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;           
+  background-color: black;
+  color: white;
+} */
+
+.footer {
+    clear: both;
+    height: 60px;
+    width: 100%;
+    float: bottom;
+    background-color: #96FA93;
+    position: relative;
+
 }
 
-
+/* not sure what to do yet due to pages */
 
 /* https://stackoverflow.com/questions/38505021/how-do-you-make-a-footer-with-links-using-css */
