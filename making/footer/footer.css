@@ -34,15 +34,17 @@ footer {
     font-size: 13px;
 } */
 
-/* .footer {
-   position: fixed;
+.footer {
+   position: relative;
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color: red;
+   background-color: #333333;
    color: white;
    text-align: center;
-} */
+   height: auto;
+   overflow: hidden;
+}
 /* 
 .footer {
   position: absolute;
@@ -53,7 +55,7 @@ footer {
   color: white;
 } */
 
-.footer {
+/* .footer {
     clear: both;
     height: 60px;
     width: 100%;
@@ -61,7 +63,7 @@ footer {
     background-color: #96FA93;
     position: relative;
 
-}
+} */
 
 /* not sure what to do yet due to pages */
 

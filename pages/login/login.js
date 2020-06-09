@@ -80,13 +80,31 @@ function addItems(store, shop) {
 }
 
 
+function updateItems(items, users, shop) {
+	if(addedItems.add) {
+		users.shop(userId.updateList);
+		users.add(items);
+		users.location(shop.map);
+	}
+}
+shop();
+items.users();
+
+function removeItems() {
+	remove.getItem(42);
+}
 
 
 
 
 
 
+firebase.auth().createUserWithEmailAndPassword(email, passoword).catch(function(error) {
+	var errorCode = error.code;
+	var errorMessage = error.message;
+})
 
+firebase.auth().signout
 
 
 
